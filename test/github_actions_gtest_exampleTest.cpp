@@ -11,5 +11,5 @@ TEST(githubActionsGtestExampleTest, addTest) {
   const int b = 3;
   const int result = githubActionsGtestExample::add(a, b);
   
-  EXPECT_EQ( result, a + b );
+  EXPECT_EQ( result, a  );
 }
